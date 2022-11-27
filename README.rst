@@ -11,10 +11,21 @@ Requirements
 Installation
 ------------
 
-Since it's for testing purposes right now, place it in <your oxid dir>\source\modules\ms\product-volume-module
+
+Since it's for testing purposes right now, place it in 
+
+.. code:: bash
+
+    <your oxid dir>\source\modules\ms\product-volume-module
+
 ms... not ch3wb4cc4 ;)
 
-Run:
+
+Run in console:
+
+.. code:: bash
+
+    cd <your oxid dir>
 
 .. code:: bash
 
