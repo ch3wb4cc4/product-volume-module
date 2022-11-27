@@ -1,4 +1,4 @@
-Demo module
+Product Volume Module
 ===========
 
 Test module extending the short description block in product details with measurements and calculated volume.
@@ -17,10 +17,10 @@ ms... not ch3wb4cc4 ;)
 Run:
 
 .. code:: bash
-	cd <your oxid dir>
+
     vendor/bin/oe-console oe:module:install-configuration source/modules/ms/product-volume-module
 
-After installing component activate the module in administration area.
+
 
 License
 -------
