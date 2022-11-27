@@ -1,18 +1,18 @@
 {
-  "name": "oxid-esales/logger-demo-module",
-  "description": "This package contains demo module for OXID eShop.",
+  "name": "ms/product-volume-module",
+  "description": "This package contains product volume module for OXID eShop.",
   "type": "oxideshop-module",
-  "keywords": ["oxid", "modules", "eShop", "demo"],
-  "homepage": "https://www.oxid-esales.com/en/home.html",
+  "keywords": ["oxid", "modules", "eShop", "volume"],
+  "homepage": "",
   "license": [
     "GPL-3.0-only"
   ],
   "require": {
-    "oxid-esales/event_logger_demo": "dev-master"
+    "ms/product-volume-module": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "OxidEsales\\LoggerDemo\\": ""
+      "MS\\ProductVolume\\": ""
     }
   },
   "minimum-stability": "dev",
