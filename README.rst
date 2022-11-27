@@ -1,7 +1,7 @@
 Demo module
 ===========
 
-This module is used as an example to show how OXID eShop modules functionality works.
+Test module extending the short description block in product details with measurements and calculated volume.
 
 Requirements
 ------------
@@ -11,11 +11,14 @@ Requirements
 Installation
 ------------
 
+Since it's for testing purposes right now, place it in <your oxid dir>\source\modules\ms\product-volume-module
+ms... not ch3wb4cc4 ;)
+
 Run:
 
 .. code:: bash
-
-    composer require oxid-esales/logger-demo-module
+	cd <your oxid dir>
+    vendor/bin/oe-console oe:module:install-configuration source/modules/ms/product-volume-module
 
 After installing component activate the module in administration area.
 
